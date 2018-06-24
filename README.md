@@ -29,3 +29,8 @@ queryparam = skip, limit <br/>
 <br/>
 If skip AND limit both are present as query param then the API ONLY provides shows (with their casts sorted by birthday in descending order) with provided 'limit' and skips as per 'skip' thus providing a neat pagination.
 
+## How to run
+1] git clone the project <br/>
+2] cd <project> <br/>
+3] npm i <br/>
+4] npm start then go to ex. http://localhost:3000/shows?skip=0&limit=10 or http://localhost:3000/shows (to see all shows)
