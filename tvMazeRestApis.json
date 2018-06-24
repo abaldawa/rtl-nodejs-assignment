@@ -1,0 +1,4 @@
+{
+  "ALL_TVMAZE_SHOWS_URL": "http://api.tvmaze.com/shows",
+  "ALL_CASTS_IN_SHOW_URL": "http://api.tvmaze.com/shows/$showid/cast"
+}
