@@ -31,6 +31,6 @@ If skip AND limit both are present as query param then the API ONLY provides sho
 
 ## How to run
 1] git clone the project <br/>
-2] cd <project> <br/>
+2] cd rtl-nodejs-assignment <br/>
 3] npm i <br/>
 4] npm start then go to ex. http://localhost:3000/shows?skip=0&limit=10 or http://localhost:3000/shows (to see all shows)
