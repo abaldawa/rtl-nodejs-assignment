@@ -25,7 +25,7 @@ function getMongoUrlFromConfig(config) {
         adminAuthSource = `?authSource=${config.authSource}`;
     }
 
-    URL = `${URL}${config.dbHost}:${config.dbPort}/${config.dbName}`;
+    URL = `${URL}${config.dbHost}:${config.dbPort}`;
 
     if(adminAuthSource) {
         URL = URL + adminAuthSource;
