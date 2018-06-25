@@ -1,4 +1,4 @@
-# Author: ABhijit Baldawa
+# Author: Abhijit Baldawa
 # rtl-nodejs-assignment
 A node.js http server which scrapes TV show information from TvMaze public REST API's, stores the data in database and exposes a REST endpoint which provides a paginated list of all TV shows along with list of their casts (casts are sorted by their birthday in descending order)
 
