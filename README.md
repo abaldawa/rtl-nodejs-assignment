@@ -2,7 +2,7 @@
 # rtl-nodejs-assignment
 A node.js http server which scrapes TV show information from TvMaze public REST API's, stores the data in database and exposes a REST endpoint which provides a paginated list of all TV shows along with list of their casts (casts are sorted by their birthday in descending order)
 
-As soon as the server starts, a daemon async method tvMazeScraper.start() is called at the server startup which keeps on fetching TV show/cast information in the background from TvMaze REST endpoint. Meanwhile users can still hit the REST endpoint exposed by the server (<URL>/shows?skip=0&limit=10) to get the shows which have already been fetched by that moment. Once the daemon service is done fetching all the shows and saving it in DB the users will be able to see list if all TV shows in paginated format from our REST call
+As soon as the server starts, a daemon async method tvMazeScraper.start() is called at the server startup which keeps on fetching TV show/cast information in the background from TvMaze REST endpoint. Meanwhile users can still hit the REST endpoint exposed by the server (http://BASE_URL/shows?skip=0&limit=10) to get the shows which have already been fetched by that moment. Once the daemon service is done fetching all the shows and saving it in DB the users will be able to see list if all TV shows in paginated format from our REST call
 
 #### The node.js server is written in latest ES 2017 syntax completely with async/await and latest node.js version (10.5) is used. Also, code is completely documented along with design/pattern decision description and method usage documentation
 
